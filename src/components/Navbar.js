@@ -4,7 +4,7 @@ import { AiOutlineShoppingCart,AiOutlineClose } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
 
 const Navbar = ({cart}) => {
-    const [isOpen,setIsOpen]= useState(true)
+    const [isOpen,setIsOpen]= useState(false)
 
     return (
         <nav>
